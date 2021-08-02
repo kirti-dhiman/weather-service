@@ -1,0 +1,21 @@
+{ 
+    "name": "kirti-dhiman/weather-service",
+    "description": "An api to fetch the weather report of a particular city",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Kirti Dhiman",
+            "email": "kirti.dhiman@nagarro.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": { 
+            "System\\" : "src/",
+            "App\\" : "app/"
+        },
+        "files": [  
+            "core/messages.php"
+        ]
+    }
+}
